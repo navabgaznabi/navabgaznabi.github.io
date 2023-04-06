@@ -1,13 +1,81 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html {
+	--brown: #e9d5a1;
+	--sage: #d7e9b9;
+	--yellow: #fffbac;
+	--light-orange: #ffd495;
+	--dark-orange: #faab78;
+	--light-grey: rgba(0, 0, 0, 0.03);
+	--mid-grey: #c0c0c0;
+	--dark-grey: #696969;
+	--white: white;
+	--rev-color: rgb(214, 214, 214);
+	--sea-green: #edf6f6;
+	color: rgb(35, 34, 34);
+}
+html[data-theme="dark"] {
+	--sage: #151811;
+	--yellow: #4d4d43;
+	--light-orange: #7b5c2f;
+	--dark-orange: #574f4a;
+	--light-grey: #6b6a6a;
+	--mid-grey: #c0c0c0;
+	--dark-grey: #696969;
+	--white: #343434;
+	color: #a0a0a0;
+}
+html {
+	font-size: 10px;
+}
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+	margin: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	font-family: "Roboto Mono", monospace;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	transition: 0.5s ease-in-out;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+	text-decoration: none;
+	color: inherit;
+}
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.abs-centre {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.abs-centre-ver {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.block-centre {
+	display: block;
+}
+.heading {
+	padding: 4.4rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.heading h2 {
+	font-size: 2.4rem;
 }

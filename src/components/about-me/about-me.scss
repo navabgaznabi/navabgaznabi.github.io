@@ -1,0 +1,79 @@
+.about-me-wrapper {
+	background-color: var(--white);
+	padding: 2.4rem;
+	max-width: 100%;
+}
+.about-container {
+	max-width: 100%;
+	margin: 2.4rem 5%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	gap: 7rem;
+}
+
+@media (max-width: 900px) {
+	.about-container {
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+.about-me-img-container {
+	width: 18%;
+	box-shadow: 0 4px 6px var(--mid-grey);
+	height: 100%;
+	min-width: 24rem;
+}
+.about-me-img-container div img {
+	padding: 1rem 1rem 0 1rem;
+	max-width: 100%;
+	min-width: 20%;
+}
+.about-me-txt-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-width: 60%;
+	min-height: 24rem;
+	border: 1px solid var(--light-grey);
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+	font-size: 1.3rem;
+	font-weight: 700;
+}
+.colorful-dots {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 2.4rem;
+	border-bottom: 1px solid var(--mid-grey);
+	background-color: var(--light-grey);
+	justify-content: flex-start;
+	padding: 0.3rem;
+}
+.dots {
+	margin: 0.3rem 0.4rem 0.3rem 0.4rem;
+	height: 0.7rem;
+	width: 0.7rem;
+	border-radius: 50%;
+	background-color: rgb(237, 76, 92);
+}
+.radio-icon-wrapper {
+	label {
+		max-width: 24rem;
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+		font-size: 1.2rem;
+	}
+}
+.abt-text-holder {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 2.4rem;
+}
+.about-text {
+	padding: 2%;
+}

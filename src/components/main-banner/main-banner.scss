@@ -1,0 +1,24 @@
+.main-banner {
+	background-color: var(--sage);
+	min-height: 100vh;
+	padding: 1rem;
+	.lapi-block {
+		margin-bottom: 0.5rem;
+		opacity: 0.6;
+	}
+	.name-block {
+		margin-bottom: 0.5rem;
+		text-align: center;
+		font-size: 7.2rem;
+		opacity: 1;
+	}
+	.desi-block {
+		margin-bottom: 0.5rem;
+		text-align: center;
+		opacity: 0.6;
+		font-size: 2.4rem;
+	}
+	.toggle-block {
+		margin-top: 0.5rem;
+	}
+}

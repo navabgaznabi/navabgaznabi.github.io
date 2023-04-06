@@ -1,0 +1,23 @@
+.skill-wrapper {
+	min-height: 35rem;
+	background-color: rgb(26, 26, 26);
+	color: var(--rev-color);
+}
+.skills-container {
+	padding-bottom: 2rem;
+}
+.ul-skill-container {
+	flex-wrap: wrap;
+	gap: 4rem;
+	li {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		justify-content: center;
+		align-items: center;
+		border-radius: 5px;
+		background-color: rgba(248, 245, 244, 0.05);
+		height: 10rem;
+		width: 10rem;
+	}
+}
